@@ -30,8 +30,8 @@ int main(int argc, char** argv) {
     windowInitialize(&window1);
 
     ShaderProgram shaderProgram;
-    shaderProgram.vertex.path = "C:\\Users\\colec\\C Programs\\OpenGL-Structured\\src\\vert.glsl";
-    shaderProgram.fragment.path = "C:\\Users\\colec\\C Programs\\OpenGL-Structured\\src\\frag.glsl";
+    shaderProgram.vertex.path = "C:\\Users\\colec\\C Programs\\Structured-OpenGL\\src\\vert.glsl";
+    shaderProgram.fragment.path = "C:\\Users\\colec\\C Programs\\Structured-OpenGL\\src\\frag.glsl";
 
     shaderProgramCreate(&shaderProgram);
 

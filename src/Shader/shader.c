@@ -7,6 +7,12 @@
 char* shaderFileToString(char* path) {
     char tempFileBuff[150];
     FILE* file = fopen(path, "r");
+
+    if (file == NULL) {
+        printf("Shader file does not exist or was incorrectly specified\n");
+        exit(-1);
+    }
+
     fseek(file, 0L, SEEK_END);
     int fileSize = (int)ftell(file);
     char* shaderSource = (char*)malloc(fileSize);
