@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "shader.h": "c",
+        "stdio.h": "c",
+        "glfw3.h": "c",
+        "glad.h": "c",
+        "windowing.h": "c",
+        "buffers.h": "c",
+        "objectdata.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "stdbool.h": "c"
+    }
+}
